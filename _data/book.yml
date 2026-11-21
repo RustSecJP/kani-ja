@@ -1,0 +1,51 @@
+short: "Kani"
+title: "Kani Rust Verifier"
+original_title: "The Kani Rust Verifier"
+seo_title: "Kani Rust Verifier（AWS「Kani」公式ドキュメント日本語訳）"
+summary: "unsafe を含む Rust のコードをモデル検査で確かめるツール「Kani Rust Verifier」の公式ドキュメントの、非公式な日本語訳。インストール、使い方、チュートリアル、リファレンス（契約、スタブ、ループ契約など）、制限事項を訳している。開発者向けの文書は含まない。"
+author: "Kani の貢献者"
+source: "https://github.com/model-checking/kani"
+license: "MIT または Apache-2.0"
+license_url: "https://github.com/model-checking/kani/blob/main/LICENSE-MIT"
+version: "2026-11-20 時点（コミット 9834c96）"
+translated: "2026-11-21"
+disclaimer: "Kani の開発者・AWS・Rust Project・Rust Foundation とは提携していません。"
+home_toc: true
+chapters:
+  - {file: "getting-started.html", title: "はじめに"}
+  - {file: "install-guide.html", title: "インストール"}
+  - {file: "build-from-source.html", title: "ソースからのビルド"}
+  - {file: "install-github-ci.html", title: "GitHub CI Action"}
+  - {file: "usage.html", title: "Kani を使う"}
+  - {file: "verification-results.html", title: "検証結果"}
+  - {file: "crates/", title: "クレートのドキュメント"}
+  - {file: "kani-tutorial.html", title: "チュートリアル"}
+  - {file: "tutorial-first-steps.html", title: "最初の一歩"}
+  - {file: "tutorial-kinds-of-failure.html", title: "Kani が見つけられる失敗"}
+  - {file: "tutorial-loop-unwinding.html", title: "ループの展開"}
+  - {file: "tutorial-nondeterministic-variables.html", title: "非決定的な変数"}
+  - {file: "reference.html", title: "リファレンス"}
+  - {file: "reference/arbitrary.html", title: "Arbitrary トレイト"}
+  - {file: "reference/attributes.html", title: "アトリビュート"}
+  - {file: "reference/bounded_arbitrary.html", title: "有界な非決定的な変数"}
+  - {file: "reference/list.html", title: "Kani のメタデータの一覧"}
+  - {file: "reference/experimental/experimental-features.html", title: "実験的な機能"}
+  - {file: "reference/experimental/autoharness.html", title: "ハーネスの自動生成"}
+  - {file: "reference/experimental/coverage.html", title: "カバレッジ"}
+  - {file: "reference/experimental/stubbing.html", title: "スタブ"}
+  - {file: "reference/experimental/contracts.html", title: "契約"}
+  - {file: "reference/experimental/loop-contracts.html", title: "ループ契約"}
+  - {file: "reference/experimental/concrete-playback.html", title: "具体的な再生"}
+  - {file: "reference/experimental/quantifiers.html", title: "量化子"}
+  - {file: "application.html", title: "応用"}
+  - {file: "tool-comparison.html", title: "ほかのツールとの比較"}
+  - {file: "tutorial-real-code.html", title: "実際のコードでどこから始めるか"}
+  - {file: "debugging-slow-proofs.html", title: "遅い証明のデバッグ"}
+  - {file: "limitations.html", title: "制限事項"}
+  - {file: "soundness.html", title: "健全性"}
+  - {file: "undefined-behaviour.html", title: "未定義動作"}
+  - {file: "rust-feature-support.html", title: "Rust のフィーチャのサポート"}
+  - {file: "rust-feature-support/intrinsics.html", title: "イントリンシック"}
+  - {file: "rust-feature-support/unstable.html", title: "不安定なフィーチャ"}
+  - {file: "overrides.html", title: "オーバーライド"}
+  - {file: "faq.html", title: "よくある質問"}
