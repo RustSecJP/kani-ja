@@ -1,0 +1,1 @@
+{n  "upstreams": [n    {n      "repo": "model-checking/kani",n      "branch": "main",n      "paths": [n        "docs/src"n      ],n      "base": "9834c96ce90ff57d8495416530b080dc3d52ce25"n    }n  ]n}
